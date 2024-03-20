@@ -5,13 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E6C2C2"
     tools:context=".CoinPriceListActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvCoinPriceList"
         android:layout_width="match_parent"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:layout_height="match_parent"
-        tools:listitem="@layout/item_coin_info"/>
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_coin_info" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
